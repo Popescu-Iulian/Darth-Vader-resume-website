@@ -1,3 +1,3 @@
 # Site-prezentare
-#2 primul site
-# practica in realizarea de siteuri pentru invatarea si practicarea html si css
+
+Invatarea prin aplicare a lectiilor de HTML si CSS, pentru o mai buna intelegere si memorare
