@@ -34,7 +34,7 @@ img {
 }
 
 
-/* Reusable */
+/* Reusable */     /* de refacut si uitat pe aici */
 .container {
   width: 90%;
   max-width: 1200px;;
@@ -65,6 +65,12 @@ img {
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, .75);
+}
+
+.section-heading h1::before {
+  width: 10rem;
+  height: 3px;
+  border-radius: .3rem;
 }
 
 .section-heading h6 {
