@@ -160,8 +160,58 @@ li {
 }
 
 /* About */
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.about-heading {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 5rem;
+}
 
+.about-heading h1 {
+  font-size: 7rem;
+  opacity: .3;
+}
+
+.about-heading h6 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.profile-img {
+  flex: 1;
+  margin-right: 5rem;
+}
+
+.about-details {
+  flex: 1;
+}
+
+.social-media {
+  margin-top: 3rem;
+}
+
+.social-media i {
+  font-size: 4rem;
+  transition: color 650ms;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-twitter:hover {
+  color: #38a1f3;
+}
+
+.fa-instagram:hover {
+  color: #ea4c89;
+}
 
 /* Services */
 
