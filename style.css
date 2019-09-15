@@ -328,11 +328,30 @@ li {
   flex: 1;
 }
 
+.portofolio-description h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
 .portofolio-description h6 {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 300;
   opacity: 0.3;
+}
+
+.portofolio-description .cta {
+  display: inline-block;
+  margin-top: 2.5 rem;
+  font-size: 1.5rem;
+  color: #1883ff;
+  text-transform: uppercase;
+  transition: color 650ms;
+}
+
+.portofolio-description .cta:hover {
+  color:#2f67cd;
 }
 
 /* Timeline */
