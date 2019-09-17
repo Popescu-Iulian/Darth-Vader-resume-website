@@ -37,6 +37,7 @@ img {
   width: 100%;
 }
 
+
 /* Reusable */     /* de refacut si uitat pe aici */
 .container {
   width: 90%;
@@ -91,6 +92,7 @@ img {
 .has-margin-right {
   margin-right: 5rem;
 }
+
 
 /* Header */
 header {
@@ -213,6 +215,7 @@ li {
   font-weight: 300;
 }
 
+
 /* About */
 .about .container {
   display: flex;
@@ -267,6 +270,7 @@ li {
   color: #ea4c89;
 }
 
+
 /* Services */
 .my-skills {
   margin-top: 10rem;
@@ -306,6 +310,7 @@ li {
   margin: auto;
   transform: rotate(-45deg);
 }
+
 
 /* Portfolio */
 .portofolio-item {
@@ -352,6 +357,7 @@ li {
 .portofolio-description .cta:hover {
   color:#2f67cd;
 }
+
 
 /* Timeline */
 .timeline ul {
@@ -413,7 +419,45 @@ li {
   background-color: #313534;
 }
 
+
 /* Contact */
+.contact {
+  background-color: #221e3f;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  border: none;
+  outline-color: #fd57bf;
+}
+
+input[type="submit"] {
+  width: initial;
+  background-color: #fd57bf;
+  color: #eee;
+  padding: 1rem 2rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+
+input[type="submit"]:hover {
+  color: #221e3f;
+  background-color: #ffe838;
+}
 
 
 /* Footer */
@@ -446,7 +490,9 @@ li {
   font-size: 1.4rem;
 }
 
+
 /* Animations */
+
 
 
 /* Media queries */
