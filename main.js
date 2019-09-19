@@ -20,4 +20,11 @@ $(document).ready(function () {
         scrollTop: 0
     }, 2000);
   });
+
+  // asta se poate face si din css -- merita cautat si inlocuit (de fapt, ar fi bine de scapap de tot ce inseamna js aici):
+  AOS.init({    
+    easing: 'ease',
+    duration: 1800,
+    once: true
+  });
 });
